@@ -17,7 +17,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "Default";
 
             // --------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |  MUTE |  PP   |  Y  |  U   |  I  |  O  |  P  | BSPC |
@@ -36,7 +36,7 @@
         };
 
         nav_layer {
-            display-name = "NUMBER";
+            display-name = "Navigation";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5    |  LCTRL | RCTRL |  6  |  7  |  8  |  9  |  0  | BSPC |
@@ -45,15 +45,15 @@
             //                    | GUI |     | SPC   |        | ENT   |     | ALT |
 
             bindings = <
-&trans  &trans  &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_UP    &trans  &trans  &trans     &mt LG(LEFT_ARROW) LA(LEFT)  &kp UP_ARROW    &mt LG(RIGHT) LA(RIGHT)  &trans  &trans
-&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans  &trans  &trans     &kp LEFT                     &kp DOWN_ARROW  &kp RIGHT                &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &studio_unlock                  &trans     &trans                       &trans          &trans                   &trans  &trans
-                                &trans          &trans           &trans                          &mkp LCLK  &mkp RCLK                    &trans
+&trans  &trans  &msc SCRL_RIGHT  &mmv MOVE_UP    &msc SCRL_LEFT   &msc SCRL_DOWN  &trans  &trans  &trans     &mt LG(LEFT_ARROW) LA(LEFT)  &kp UP_ARROW    &mt LG(RIGHT) LA(RIGHT)  &trans  &trans
+&trans  &trans  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP    &trans  &trans  &trans     &kp LEFT                     &kp DOWN_ARROW  &kp RIGHT                &trans  &trans
+&trans  &trans  &trans           &trans          &trans           &studio_unlock                  &trans     &trans                       &trans          &trans                   &trans  &trans
+                                 &trans          &trans           &trans                          &mkp LCLK  &mkp RCLK                    &trans
             >;
         };
 
         num_layer {
-            display-name = "SYMBOL";
+            display-name = "Numeric";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  | LCTRL | RCTRL |  ^  |  &  |  *  |  (  |  )  | BSPC |
