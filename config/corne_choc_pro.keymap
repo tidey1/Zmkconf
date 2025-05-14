@@ -13,6 +13,16 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        MiddleClick {
+            bindings = <&mkp MCLK>;
+            key-positions = <43 44>;
+            layers = <1>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
