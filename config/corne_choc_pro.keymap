@@ -43,10 +43,10 @@
             // | RGB  |     |  -  |  /  |  ~  |       |  nokey |  ****  | nokey |     |  [  |  ]  |  <  |  >  |  '   |
             //                    |     |     |       |        |  ****  | BSPC  |     |     |
             bindings = <
-                &kp `   &kp !  &kp @  &kp #  &kp $  &kp % &kp LCTRL      &kp RCTRL &kp &  &kp {  &kp }  &kp -  &kp / &kp \
-                &trans  &kp ^  &kp +  &kp *  &kp =  &kp $ &kp LALT       &kp RALT  &kp ^  &kp (  &kp )  &kp _  &kp : &kp "
-                &rgb_ug RGB_TOG &trans &kp - &kp / &kp ~ &trans                 &trans    &kp [  &kp ]  &kp <  &kp > &kp '
-                &trans     &trans       &trans                             &kp BSPC &trans   &trans
+                &kp GRAVE &kp EXCL     &kp AT    &kp HASH  &kp DLLR  &kp PRCNT &kp LCTRL      &kp RCTRL &kp AMPS  &kp LBRC &kp RBRC &kp MINUS &kp FSLH  &kp BSLH
+                &trans    &kp CARET    &kp PLUS  &kp ASTRK &kp EQUAL &kp DLLR  &kp LALT       &kp RALT  &kp CARET &kp LPAR &kp RPAR &kp UNDER &kp COLON &kp DQT
+                &rgb_ug RGB_TOG &trans &kp MINUS &kp FSLH  &kp TILDE &trans                             &trans    &kp LBKT &kp RBKT &kp LT    &kp GT    &kp SQT
+                &trans     &trans       &trans                                                &kp BSPC &trans   &trans
             >;
         };
 
