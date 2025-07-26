@@ -43,9 +43,9 @@
             // | RGB  |     |  -  |  /  |  ~  |       |  nokey |  ****  | nokey |     |  [  |  ]  |  <  |  >  |  '   |
             //                    |     |     |       |        |  ****  | BSPC  |     |     |
             bindings = <
-                &kp `   &kp !       &kp @          &kp #       &kp $       &kp %       &kp LCTRL &kp RCTRL &kp &   &kp {   &kp } &kp -    &kp - &kp \
-                &trans &kp ^ 0 &kp +    &kp * &kp = &kp $ &kp LALT         &kp RALT  &kp ^ &kp ( &kp ) &kp _ &kp : &kp "
-                &rgb_ug RGB_TOG &trans &kp - &kp / &kp ~ &trans            &trans    &kp [  &kp ] &kp <    &kp > &kp '
+                &kp `   &kp !  &kp @  &kp #  &kp $  &kp % &kp LCTRL      &kp RCTRL &kp &  &kp {  &kp }  &kp -  &kp / &kp \
+                &trans  &kp ^  &kp +  &kp *  &kp =  &kp $ &kp LALT       &kp RALT  &kp ^  &kp (  &kp )  &kp _  &kp : &kp "
+                &rgb_ug RGB_TOG &trans &kp - &kp / &kp ~ &trans                 &trans    &kp [  &kp ]  &kp <  &kp > &kp '
                 &trans     &trans       &trans                             &kp BSPC &trans   &trans
             >;
         };
