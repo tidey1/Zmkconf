@@ -53,15 +53,15 @@
         raise_layer {
             display-name = "SYMBOL";
             // -----------------------------------------------------------------------------------------
-            // |      |     |     |     |     |     |       |       |      |      |      |       |    |    |
             // |      |     |     |     |     |     |       |       | pgup | home | up   |  end  |    |    |
-            // |      |     |     |     |     |     |               | pgdn | left | down | right |    |    |
+            // |      |     |     |     |     |     |       |       | pgdn | left | down | right |    |    |
+            // |      |     |     |     |     |     |               |      |scroll|scroll|       |    |    |
             //                    |     |     |     |               |      |      |      |
             bindings = <
                 &none &none &none &none &none &none &none     &none  &kp PG_UP &kp HOME &kp UP   &kp END   &none &none
                 &none &none &none &none &none &none &none     &none  &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &none &none
                 &none &none &none &none &none &none                  &none &kp K_SCROLL_DOWN &kp K_SCROLL_UP &none &none &none
-                    &none &none &trans                               &trans   &none    &kp trans
+                    &none &none &trans                               &trans   &none    &trans
             >;
         };
 
