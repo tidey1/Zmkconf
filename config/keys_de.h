@@ -24,7 +24,7 @@
 *******************************************************************************/
 
 #pragma once
-#include "keycodes.h"
+// #include "keycodes.h"
 // clang-format off
 
 #define QMK_GERMAN_KEYCODES_VERSION "0.0.1"
