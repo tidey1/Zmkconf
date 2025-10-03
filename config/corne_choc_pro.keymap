@@ -9,6 +9,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 
+#include "keys_de.h"
+
 / {
     chosen {
         zmk,physical-layout = &default_layout;
