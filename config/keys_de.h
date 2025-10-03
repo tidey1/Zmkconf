@@ -26,6 +26,8 @@
 #pragma once
 // #include "keycodes.h"
 // clang-format off
+#include <dt-bindings/zmk/modifiers.h>
+#include <dt-bindings/zmk/keys.h>
 
 #define QMK_GERMAN_KEYCODES_VERSION "0.0.1"
 #define QMK_GERMAN_KEYCODES_VERSION_BCD 0x00000001
