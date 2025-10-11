@@ -86,9 +86,9 @@
             //                    | GUI |     | SPC   |        | ENT   |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3     &kp N4      &kp N5          &kp LCTRL  &kp RCTRL  &kp N6     &kp N7    &kp N8         &kp N9     &kp N0  &kp BSPC
-&to 4      &trans  &trans  &trans     &CtrlAltF1  &LangChange     &kp LALT   &kp RALT   &kp LEFT   &kp DOWN  &kp UP         &kp RIGHT  &trans  &trans
-&kp LSHFT  &trans  &trans  &trans     &trans      &studio_unlock                        &trans     &trans    &trans         &trans     &trans  &trans
+&kp TAB    &kp N1  &kp N2  &kp N3     &kp N4      &kp N5          &kp LCTRL  &kp RCTRL  &kp N6     &kp N7    &kp N8         &kp N9     &kp N0  &kp DEL
+&to 4      &trans  &trans  &kp EQUAL  &CtrlAltF1  &LangChange     &kp LALT   &kp RALT   &kp LEFT   &kp DOWN  &kp UP         &kp RIGHT  &trans  &trans
+&kp LSHFT  &trans  &trans  &trans     &trans      &studio_unlock                        &trans     &trans    &trans         &trans     &trans  &kp ESC
                            &kp LCTRL  &trans      &kp SPACE                             &kp ENTER  &trans    &kp RIGHT_ALT
             >;
         };
@@ -103,7 +103,7 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH   &kp DLLR  &kp PRCNT  &kp LCTRL  &kp RCTRL  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&kp TAB    &kp EXCL  &kp AT  &kp HASH   &kp DLLR  &kp PRCNT  &kp LCTRL  &kp RCTRL  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp DEL
 &kp LCTRL  &trans    &trans  &trans     &trans    &kp LBKT   &kp LALT   &kp RALT   &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT  &trans    &trans  &trans     &trans    &trans                           &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                              &kp LCTRL  &trans    &kp SPACE                        &kp RET    &trans     &kp RALT
@@ -133,10 +133,10 @@
         extra_layer_2 {
             display-name = "EXTRA 2";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                  &trans  &trans  &trans
+&kp BSPC  &kp DEL  &kp DEL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans    &trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans    &trans   &trans   &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+                            &trans  &trans  &trans                  &trans  &trans  &trans
             >;
         };
 
