@@ -45,6 +45,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        win {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <45 40>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
